@@ -1,0 +1,109 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+html { font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+-ms-text-size-adjust: 100%; /* 2 */ }
+
+html, button, input, select, textarea { font-family: sans-serif; }
+body { margin:20;
+	padding:0; font-family: 'Lato', sans-serif; overflow-x: hidden;}
+aside {width: 25%}
+main {width:75%}
+
+h1 { font-size: 2em; margin: 0.67em 0; }
+h2 { font-size: 1.5em; margin: 0.83em 0; }
+h3 { font-size: 1.17em; margin: 1em 0; }
+h4 { font-size: 1em; margin: 1.33em 0; }
+h5 { font-size: 0.83em; margin: 1.67em 0; }
+h6 { font-size: 0.75em; margin: 2.33em 0; }
+
+
+
+.annolist {
+	position: left;
+	list-style-position: inside;
+	border: 1px solid black;
+}
+
+
+
+
+.article8 {
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.footer1 {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 5vx;
+}
+
+
+.text1 {
+	position: right;
+	align: justify;
+}
+
+a:link {
+	display: inline-block;
+	color: white;
+	padding: 15px 25px;
+	text-align: bottom;
+	text-decoration: none;
+}
+
+.parallax1 {
+	/* The image used */
+	background-image:
+		url("../images/DT_CS_PPT_SlideDivider_Coffee_Ppt_16x9_rgb.png");
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2 {
+	/* The image used */
+	background-image:
+		url("../images/DT_CS_PPT_SlideDivider_Headphone_Ppt_16x9_rgb.png");
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	
+	*zoom: 1;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+nav { height: auto; width: 100%; background: none; margin: 70px 0 0 0; }
+dl, menu, ol, ul { margin: 1em 0; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; }
+header {background-image: url("../images/headerMin.jpg");}
+header ul { padding-top: 35px; }
+header ul li { list-style: none; float: left; text-transform: uppercase; letter-spacing: 2px; }
+header ul li a { display: block; margin: 0 30px; color: #4d4959; }

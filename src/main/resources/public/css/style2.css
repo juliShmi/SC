@@ -1,0 +1,301 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+html {font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+-ms-text-size-adjust: 100%; /* 2 */ }
+
+html, button, input, select, textarea { font-family: sans-serif; }
+body { margin:20;
+	padding:0; font-family: 'Lato', sans-serif; overflow-x: hidden; size:24;}
+aside {width: 25%}
+main {width:75%}
+
+h1 {
+	float: middle;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: block; margin : 0 30px; color : #4d4959;
+	font-size: 2em;
+	margin: 0.67em 0;
+	margin: 0 30px;
+	color: #4d4959;
+}
+
+h2 {
+	float: middle;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: block; margin : 0 30px; color : #4d4959;
+	font-size: 1.5em;
+	margin: 0.83em 0;
+	margin: 0 30px;
+	color: #4d4959;
+}
+
+h3 {
+	font-size: 1.17em;
+	margin: 1em 0;
+}
+
+h4 {
+	font-size: 1em;
+	margin: 1.33em 0;
+}
+
+h5 {
+	font-size: 0.83em;
+	margin: 1.67em 0;
+}
+
+h6 {
+	font-size: 0.75em;
+	margin: 2.33em 0;
+}
+
+p{min-height: 20vh;
+	padding: 5px 50px;
+	
+}
+.container {
+	display: grid;
+	grid-template-columns: 200px 1fr 3%;
+	grid-template-rows: 100px;
+	background-color: transparent;
+}
+
+.row {
+	margin-right: -50px;
+	margin-left: -50px;
+}
+
+nav {
+	height: auto;
+	width: 100%;
+	background: none;
+}
+
+ul li {
+	list-style: none;
+	float: middle;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+ul li a {
+	display: block;
+	margin: 0 30px;
+	color: #4d4959;
+}
+
+a {
+	display: block;
+	margin: 10px;
+	align: bottom;
+	width: 200px;
+}
+
+table02 tr td {}
+
+.part1 {
+	display: flex;
+	background-color: transparent;
+	min-height: 30vh;
+}
+
+.part1>div {
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	flex-grow: 1;
+}
+
+#art1left {
+	width: 5%
+}
+
+.container>div {
+	background-color: transparent;
+	margin: 10px;
+}
+
+#one {
+	background-color: transparent;
+	margin: 10px;
+}
+
+#two {
+	background-color: transparent;
+}
+
+#three {
+	flex: 0 0 300px;
+	margin: 10px;
+	background-color: transparent;
+}
+
+#four {
+	flex: 0 0 100px;
+	margin: 10px;
+	background-color: transparent;
+}
+
+#five {
+	flex: 0 0 500px;
+	
+}
+
+#six {
+	min-height: 30vh;
+}
+
+#sixandahalf {
+	min-height: 50vh;
+}
+
+#seven {
+	min-height: 100vh;
+	padding: 8px 50px;
+}
+
+#eight {
+	min-height: 70vh;
+	padding: 8px 50px;
+}
+
+#ten {
+	width: 75%;
+	margin: 10px;
+}
+
+#twelfe {
+	background-color: transparent;
+}
+
+.testresults {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 250px);
+	background-color: transparent;
+	gap: 10px;
+	flex-grow: 1;
+	position: middle;
+}
+
+.testresults>div {
+	background-color: #F1F1F1;
+	gap: 10px;
+	flex-grow: 1;
+	position: middle;
+}
+
+.parallax1 {
+	background-image:
+		url("../images/DT_CS_PPT_SlideDivider_Coffee_Ppt_16x9_rgb.png");
+	min-height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax2 {
+	background-image:
+		url("../images/DT_CS_PPT_SlideDivider_Headphone_Ppt_16x9_rgb.png");
+	min-height: 150px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.telekomlogo {
+	background-image: url("../images/T_Logo_Claim_INT_WebHeader_RGB_p.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 500px;
+	margin: 30px;
+}
+
+.junit {
+	background-image: url("../images/junit5-banner.png");
+	background-repeat: no-repeat;
+	background-size: 450px;
+	background-position: center;
+	text-indent: -9999px;
+}
+
+#ueberblick {
+	text-align: center;
+	font-size: 24px;
+	color: #000000;
+	font-weight: 500;
+	word-spacing: 2px;
+	line-height: 1.8em;
+}
+
+.asidepicture {
+	background-image:
+		url("../images/DT_Wallpaper_Network_03_Ppt_16x9_rgb.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.part2 {
+	display: flex;
+	background-color: transparent;
+}
+
+.part2>div {
+	background-color: white;
+	height: 300px;
+	width: 200px;
+	margin: 0 50px;
+	flex-grow: 1;
+	align: center;
+}
+
+#art2left {
+	width: 60%
+}
+
+.dependencies {
+	background-image: url("../images/testDependency.JPG");
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: right;
+}
+
+#pic {
+	align: center;
+}
+
+#art2right {
+	text-align: left;
+	font-size: 24px;
+	color: #848789;
+	font-weight: 300;
+	word-spacing: 2px;
+	line-height: 1.8em;
+	margin-top: 70px;
+}
+
+.queuepic1 {
+	background-image: url("../images/beforeeach.JPG");
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: left;
+}
+
+.queuepic2 {
+	background-image: url("../images/test.JPG");
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: left;
+}
+
+.queuepic3 {
+	background-image: url("../images/aftereach.JPG");
+	background-repeat: no-repeat;
+	background-size: 700px;
+	background-position: left;
+}

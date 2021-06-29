@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" lang="de">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+	<div class="container">
+		<div id="one">
+		<div class="headercontainer">
+			<div class="row">
+				<nav>
+					<ul class="clearfix">
+						<li><a href="#seven">Struktur</a></li>
+						<li><a href="#eight">Assertions</a></li>
+						<li><a href="#ten">Resultat</a></li></ul>
+				</nav>
+			</div>
+			</div>
+		</div>
+		<div id="two" class="telekomlogo"></div>
+		<div id="three"></div>
+		<div id="four" class="asidepicture"></div>
+		<div id="five">
+			<br>
+			<div id="six">
+				<div class="part1">
+					<div id="art1left" class="junit">
+						<a
+							href="https://junit.org/junit5/docs/current/user-guide/#overview">JUnitLink</a><br></br>
+					</div>
+					<div id="art1right" class="dependencies"></div>
+				</div>
+			</div>
+			<div id="sixandahalf" class="parallax2"></div>
+			<p></p>
+			<div id="seven">
+			<center><h1>Struktur</h1></center><br>
+
+				<div id="typtable">
+					<table id="table01" width="100%" cellspacing="0" cellpadding="5"
+						border="1" align="center" style="font-size:24px;">
+						<tr>
+							<th>Testtyp</th>
+							<th>Annotation</th>
+						</tr>
+						<tr>
+							<td>Klassische Tests</td>
+							<td>@Test</td>
+						</tr>
+						<tr>
+							<td>Parametrisierte Tests</td>
+							<td>@ParameterizedTest</td>
+						</tr>
+						<tr>
+							<td>Dynamische Tests</td>
+							<td>@Testfactory</td>
+						</tr>
+						<tr>
+							<td>Repeated Tests</td>
+							<td>@RepeatedTest</td>
+						</tr>
+
+					</table>
+				</div>
+				<p></p>
+				<div class="part2">
+					<div id="art2left" class="queuepic1"></div>
+					<div id="art2right">@BeforeEach</div>
+			</div>
+			<div class="part2">
+					<div id="art2left" class="queuepic2"></div>
+					<div id="art2right">@Test</div>
+			</div>
+			<div class="part2">
+					<div id="art2left" class="queuepic3"></div>
+					<div id="art2right">@AfterEach</div>
+			</div>
+			<center><h2>TestSchritte</h2></center><br>
+			<ol class="numberlist">
+						<li>Prüfen ob eine Methode statisch ist</li>
+						<li>Eine Methode direkt im Test aufrufen</li>
+						<li>Ausgabe der Methode mit dem erwarteten Resultat vergleichen</li>
+						</ol>
+			</div>
+			<div id="eight">
+			<center><h1>Assertions</h1></center><br>
+				<div id="typtable">
+					<table id="table02" width="100%" cellspacing="0" cellpadding="5"
+						border="1" align="center" style="font-size:24px;">
+						<tr>
+							<th>Assertionstyp</th>
+							<th>Erklärung</th>
+						</tr>
+						<tr>
+							<td>assertTrue & assertFalse</td>
+							<td>keine Ausgabe zu definieren, sie handeln sich als
+								boolean-Methode: ob das Resultat richtig oder falsch ist</td>
+						</tr>
+						<tr>
+							<td>assertEqual & assertNotEqual</td>
+							<td>die Analoge von .equals-Methode, die die Werten von
+								Objekten vergleicht</td>
+						</tr>
+						<tr>
+							<td>assertSame & assertNotSame</td>
+							<td>die Analoge von == Methode. Die Ergebnisse sind „same“,
+								wenn sie dieselbe Addresszeile haben</td>
+						</tr>
+						<tr>
+							<td>assertNull & assertNotNull</td>
+							<td>prüft ob die Ausgabe eine Null-Wert hat</td>
+						</tr>
+						<tr>
+							<td>assertThrows</td>
+							<td>bekommt eine erwartete Ausnahme (Exception) als erstes
+								Parameter und unsere Methode ruft Ausnahme als zweites Parameter
+								auf. Wenn eine Ausnahme eines anderen Typs aufgeruft wird, ist
+								unser falsch durchgelaufen ist</td>
+						</tr>
+					</table>
+				</div>
+				
+			</div>
+			<div id="nine" class="parallax1"></div>
+			<div id="ten"><center><h1>Resultat</h1></center><br>
+				<div class="testresults">
+					<div id="pic">
+						<header class="abovepicture">
+							<h3>Test success</h3>
+						</header><img src="images/TestSuccess.JPG"> </a>
+					</div>
+					<div id="pic">
+						<header class="abovepicture">
+							<h3>Test failure</h3>
+						</header>
+						<img src="images/TestFailure.JPG"></a>
+					</div>
+					<div id="pic">
+						<header class="abovepicture">
+							<h3>Test Error</h3>
+						</header>
+						<img src="images/TestError.JPG"></a>
+					</div>
+				</div>
+			</div>
+			<div id="eleven">Article</div>
+		</div>
+		<div id="twelfe"></div>
+	</div>
+	</div>
+
+
+</body>
+
+</html>
