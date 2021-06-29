@@ -1,30 +1,54 @@
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
-html {font-size: 100%; /* 1 */
-	-webkit-text-size-adjust: 100%; /* 2 */
--ms-text-size-adjust: 100%; /* 2 */ }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav,
+	section, summary {
+	display: block;
+}
 
-html, button, input, select, textarea { font-family: sans-serif; }
-body { margin:20;
-	padding:0; font-family: 'Lato', sans-serif; overflow-x: hidden; size:24;}
-aside {width: 25%}
-main {width:75%}
+html {
+	font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	-ms-text-size-adjust: 100%; /* 2 */
+}
+
+html, button, input, select, textarea {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 20;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	overflow-x: hidden;
+	size: 24;
+}
+
+aside {
+	width: 25%
+}
+
+main {
+	width: 75%
+}
 
 h1 {
-	float: middle;
+	float: top;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	display: block; margin : 0 30px; color : #4d4959;
-	font-size: 2em;
+	display: block;
+	margin: 0 30px;
+	color: #4d4959;
+	font-size: 3em;
 	margin: 0.67em 0;
 	margin: 0 30px;
 	color: #4d4959;
 }
 
 h2 {
-	float: middle;
+	float: top;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	display: block; margin : 0 30px; color : #4d4959;
+	display: block;
+	margin: 0 30px;
+	color: #4d4959;
 	font-size: 1.5em;
 	margin: 0.83em 0;
 	margin: 0 30px;
@@ -51,14 +75,18 @@ h6 {
 	margin: 2.33em 0;
 }
 
-p{min-height: 20vh;
-	padding: 5px 50px;
-	
+p {
+	min-height: 50vh;
 }
+
+.half {
+	min-height: 10vh;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 200px 1fr 3%;
-	grid-template-rows: 100px;
+	grid-template-rows: 150px;
 	background-color: transparent;
 }
 
@@ -93,7 +121,49 @@ a {
 	width: 200px;
 }
 
-table02 tr td {}
+ol li {
+	color: #4d4959;
+	text-align: justify; float : middle;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	float: middle;
+}
+
+ol li a {
+	color: #4d4959;
+	display: block;
+	margin: 0 30px;
+	color: #4d4959;
+}
+
+a {
+	display: block;
+	margin: 10px;
+	align: bottom;
+	width: 200px;
+}
+
+#table01 {
+	float: middle;
+	letter-spacing: 2px;
+	margin: 0 30px;
+	color: #4d4959;
+	font-size: 1.0em;
+	text-align: justify;
+	margin: 0.9em 0;
+	margin: 0 30px;
+}
+
+#table02 {
+	float: middle;
+	letter-spacing: 1px;
+	display: block;
+	margin: 0 30px;
+	color: #4d4959;
+	font-size: 1.0em;
+	margin: 0.9em 0;
+	margin: 0 30px;
+}
 
 .part1 {
 	display: flex;
@@ -110,17 +180,34 @@ table02 tr td {}
 }
 
 #art1left {
-	width: 5%
+	width: 5%;
+}
+
+.part0 {
+	display: flex;
+	min-height: 30vh;
+}
+
+.part0>div {
+	height: 200px;
+	width: 200px;
+	margin: 30px;
+	flex-grow: 1;
+}
+
+#art0left {
+	width: 25%;
 }
 
 .container>div {
 	background-color: transparent;
-	margin: 10px;
+	margin: 15px;
 }
 
 #one {
+	min-height: 200px;
 	background-color: transparent;
-	margin: 10px;
+	margin: 5px 10px;
 }
 
 #two {
@@ -135,21 +222,15 @@ table02 tr td {}
 
 #four {
 	flex: 0 0 100px;
-	margin: 10px;
 	background-color: transparent;
 }
 
 #five {
-	flex: 0 0 500px;
-	
+	flex: 0 0 400px;
 }
 
 #six {
 	min-height: 30vh;
-}
-
-#sixandahalf {
-	min-height: 50vh;
 }
 
 #seven {
@@ -163,8 +244,15 @@ table02 tr td {}
 }
 
 #ten {
-	width: 75%;
+	min-height: 70vh;
+	width: 100%;
 	margin: 10px;
+}
+
+#eleven {
+	min-height: 50vh;
+	margin: 10px;
+	background-color: transparent;
 }
 
 #twelfe {
@@ -191,16 +279,29 @@ table02 tr td {}
 .parallax1 {
 	background-image:
 		url("../images/DT_CS_PPT_SlideDivider_Coffee_Ppt_16x9_rgb.png");
-	min-height: 150px;
+	min-height: 300px;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-height: 50vh;
 }
 
 .parallax2 {
+	margin-top: 70px; background-image :
+	url("../images/DT_CS_PPT_SlideDivider_Headphone_Ppt_16x9_rgb.png");
+	min-height: 400px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-image:
 		url("../images/DT_CS_PPT_SlideDivider_Headphone_Ppt_16x9_rgb.png");
+}
+
+.parallax3 {
+	background-image:
+		url("../images/DT_CS_PPT_SlideDivider_Drop_Ppt_16x9_rgb.png");
 	min-height: 150px;
 	background-attachment: fixed;
 	background-position: center;
@@ -209,11 +310,18 @@ table02 tr td {}
 }
 
 .telekomlogo {
-	background-image: url("../images/T_Logo_Claim_INT_WebHeader_RGB_p.svg");
+	background-image: url("../images/Telekom_Logo_2013.svg.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 500px;
-	margin: 30px;
+	background-size: 250px;
+}
+
+.wcs {
+	background-image:
+		url("../images/abfdfd2549d860c372512d39837341c1.png-Logo letras rosa.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 450px;
 }
 
 .junit {
@@ -236,8 +344,8 @@ table02 tr td {}
 .asidepicture {
 	background-image:
 		url("../images/DT_Wallpaper_Network_03_Ppt_16x9_rgb.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat;
+	background-size: fill;
 }
 
 .part2 {
@@ -247,15 +355,31 @@ table02 tr td {}
 
 .part2>div {
 	background-color: white;
-	height: 300px;
-	width: 200px;
-	margin: 0 50px;
+	height: 210px;
+	width: 130px;
+	margin: 0 30px;
+	flex-grow: 1;
+	align: center;
+}
+
+.part3 {
+	display: flex;
+	background-color: transparent;
+	min-height: 8 50vh;
+}
+
+.part3>div {
+	background-color: white;
+	height: 210px;
+	width: 130px;
+	margin: 0 30px;
 	flex-grow: 1;
 	align: center;
 }
 
 #art2left {
-	width: 60%
+	width: 47%;
+	border: thick double #32a1ce;
 }
 
 .dependencies {
@@ -276,7 +400,7 @@ table02 tr td {}
 	font-weight: 300;
 	word-spacing: 2px;
 	line-height: 1.8em;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .queuepic1 {
@@ -284,6 +408,7 @@ table02 tr td {}
 	background-repeat: no-repeat;
 	background-size: 700px;
 	background-position: left;
+	background-color: transparent;
 }
 
 .queuepic2 {
@@ -291,6 +416,7 @@ table02 tr td {}
 	background-repeat: no-repeat;
 	background-size: 700px;
 	background-position: left;
+	background-color: transparent;
 }
 
 .queuepic3 {
@@ -298,4 +424,19 @@ table02 tr td {}
 	background-repeat: no-repeat;
 	background-size: 700px;
 	background-position: left;
+	background-color: transparent;
+}
+
+.abovepicture {
+	margin: 30px;
+	text-align: center;
+	background-color: transparent;
+}
+
+.telekomlogoclosing {
+	background-image: url("../images/T_Logo_Claim_INT_WebHeader_RGB_p.svg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 700px;
+	margin: 30px;
 }

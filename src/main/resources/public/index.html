@@ -9,23 +9,35 @@
 <body>
 	<div class="container">
 		<div id="one">
-		<div class="headercontainer">
-			<div class="row">
-				<nav>
-					<ul class="clearfix">
-						<li><a href="#seven">Struktur</a></li>
-						<li><a href="#eight">Assertions</a></li>
-						<li><a href="#ten">Resultat</a></li></ul>
-				</nav>
-			</div>
+			<div class="headercontainer">
+				<div class="row">
+					<nav>
+						<ul class="clearfix">
+							<li><a href="#six">Überblick</a></li>
+							<li><a href="#seven">Struktur</a></li>
+							<li><a href="#seven">Testschritte</a></li>
+							<li><a href="#eight">Assertions</a></li>
+							<li><a href="#ten">Resultat</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</div>
-		<div id="two" class="telekomlogo"></div>
+		<div id="two" class="part0">
+			<div id="art0left" class="wcs"></div>
+			<div id="art0right" class="telekomlogo"></div>
+		</div>
 		<div id="three"></div>
 		<div id="four" class="asidepicture"></div>
 		<div id="five">
-			<br>
+			<p class="half"></p>
+			<div id="sixandahalf" class="parallax2"></div>
 			<div id="six">
+				<p>
+				<center>
+					<h1>Überblick</h1>
+				</center>
+				</p>
 				<div class="part1">
 					<div id="art1left" class="junit">
 						<a
@@ -34,14 +46,17 @@
 					<div id="art1right" class="dependencies"></div>
 				</div>
 			</div>
-			<div id="sixandahalf" class="parallax2"></div>
-			<p></p>
 			<div id="seven">
-			<center><h1>Struktur</h1></center><br>
+				<center>
+					<p>
+					<h1>Struktur</h1>
+					</p>
+				</center>
+				<br>
 
 				<div id="typtable">
-					<table id="table01" width="100%" cellspacing="0" cellpadding="5"
-						border="1" align="center" style="font-size:24px;">
+					<table id="table01" width="95%" cellspacing="1" cellpadding="5"
+						border="1" align="center" style="font-size: 24px;">
 						<tr>
 							<th>Testtyp</th>
 							<th>Annotation</th>
@@ -69,27 +84,44 @@
 				<div class="part2">
 					<div id="art2left" class="queuepic1"></div>
 					<div id="art2right">@BeforeEach</div>
-			</div>
-			<div class="part2">
+				</div>
+				<div class="part2">
 					<div id="art2left" class="queuepic2"></div>
 					<div id="art2right">@Test</div>
-			</div>
-			<div class="part2">
+				</div>
+				<div class="part2">
 					<div id="art2left" class="queuepic3"></div>
 					<div id="art2right">@AfterEach</div>
-			</div>
-			<center><h2>TestSchritte</h2></center><br>
-			<ol class="numberlist">
-						<li>Prüfen ob eine Methode statisch ist</li>
-						<li>Eine Methode direkt im Test aufrufen</li>
-						<li>Ausgabe der Methode mit dem erwarteten Resultat vergleichen</li>
+				</div>
+				<center>
+					<p>
+					<h1>Testschritte</h1>
+					</p>
+				</center>
+				<br>
+				<div class="part3">
+					<div id="art3left" class="schritte">
+						<ol class="numberlist" style="font-size: 24px;">
+							<li>Prüfen ob eine Methode statisch ist</li>
+							<li>Eine Methode direkt im Test aufrufen</li>
+							<li>Ausgabe der Methode mit dem erwarteten Resultat
+								vergleichen</li>
 						</ol>
+					</div>
+					<div id="art1right" class="parallax3"></div>
+				</div>
 			</div>
+
 			<div id="eight">
-			<center><h1>Assertions</h1></center><br>
+				<center>
+					<p>
+					<h1>Assertions</h1>
+					</p>
+				</center>
+				<br>
 				<div id="typtable">
-					<table id="table02" width="100%" cellspacing="0" cellpadding="5"
-						border="1" align="center" style="font-size:24px;">
+					<table id="table02" width="100%" cellspacing="1" cellpadding="5"
+						border="1" align="center" style="font-size: 24px;">
 						<tr>
 							<th>Assertionstyp</th>
 							<th>Erklärung</th>
@@ -122,34 +154,47 @@
 						</tr>
 					</table>
 				</div>
-				
 			</div>
+			<p></p>
 			<div id="nine" class="parallax1"></div>
-			<div id="ten"><center><h1>Resultat</h1></center><br>
+			<div id="ten">
+				<p>
+				<center>
+					<h1>Resultat</h1>
+				</center>
+				</p>
+				<br>
 				<div class="testresults">
 					<div id="pic">
 						<header class="abovepicture">
-							<h3>Test success</h3>
-						</header><img src="images/TestSuccess.JPG"> </a>
+							<center>
+								<h2>Test success</h2>
+							</center>
+						</header>
+						<img src="images/TestSuccess.JPG"> </a>
 					</div>
 					<div id="pic">
 						<header class="abovepicture">
-							<h3>Test failure</h3>
+							<center>
+								<h2>Test failure</h2>
+							</center>
 						</header>
 						<img src="images/TestFailure.JPG"></a>
 					</div>
 					<div id="pic">
 						<header class="abovepicture">
-							<h3>Test Error</h3>
+							<center>
+								<h2>Test Error</h2>
+							</center>
 						</header>
 						<img src="images/TestError.JPG"></a>
 					</div>
 				</div>
 			</div>
-			<div id="eleven">Article</div>
+			<p></p>
+			<div id="eleven" class="telekomlogoclosing"></div>
+			<div id="twelfe"></div>
 		</div>
-		<div id="twelfe"></div>
-	</div>
 	</div>
 
 
